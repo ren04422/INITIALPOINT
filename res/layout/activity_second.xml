@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".second">
+
+
+    <!-- Player 1 ImageView -->
+
+    <!-- Player 1 button -->
+
+    <ImageView
+        android:id="@+id/trackImageView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        android:src="@drawable/track_background" />
+
+    <ImageView
+        android:id="@+id/player1ImageView"
+        android:layout_width="360dp"
+        android:layout_height="157dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="16dp"
+        android:src="@drawable/player1" />
+
+    <Button
+        android:id="@+id/player1Button"
+        android:layout_width="133dp"
+        android:layout_height="83dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="16dp"
+        android:onClick="onPlayer1Tap"
+        android:text="Player 1" />
+
+    <!-- Player 3 ImageView -->
+
+    <ImageView
+        android:id="@+id/player3ImageView"
+        android:layout_width="153dp"
+        android:layout_height="153dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="114dp"
+        android:layout_marginBottom="16dp"
+        android:src="@drawable/player3" />
+
+    <!-- Player 3 button -->
+    <Button
+        android:id="@+id/player3Button"
+        android:layout_width="133dp"
+        android:layout_height="83dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:onClick="onPlayer3Tap"
+        android:text="Player 3" />
+
+
+    <ImageView
+        android:id="@+id/player2ImageView"
+        android:layout_width="185dp"
+        android:layout_height="163dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:src="@drawable/player2" />
+
+    <Button
+        android:id="@+id/player2Button"
+        android:layout_width="133dp"
+        android:layout_height="83dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:onClick="onPlayer2Tap"
+        android:text="Player 2" />
+
+    <TextView
+        android:id="@+id/timer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:fontFamily="@font/pixellari"
+        android:textSize="80dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/next_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="250dp"
+        android:fontFamily="@font/pixellari"
+        android:text="Click to Start"
+        android:textColor="@color/teal_200"
+        android:textSize="60dp" />
+
+    <TextView
+        android:id="@+id/txt_phone_confirm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:padding="10dp"/>
+
+    <ImageView
+        android:id="@+id/leaf"
+        android:layout_width="93dp"
+        android:layout_height="59dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="158dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:src="@drawable/leaf" />
+
+    <!-- Adjust as needed -->
+
+    <ImageView
+        android:id="@+id/leaf2"
+        android:layout_width="93dp"
+        android:layout_height="59dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="667dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:src="@drawable/leaf" />
+
+
+    <ImageView
+        android:id="@+id/leaf3"
+        android:layout_width="93dp"
+        android:layout_height="59dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="383dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:src="@drawable/leaf" />
+
+    <ImageView
+        android:id="@+id/bird1"
+        android:layout_width="75dp"
+        android:layout_height="52dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="340dp"
+        android:src="@drawable/bird1" />
+
+    <ImageView
+        android:id="@+id/bird2"
+        android:layout_width="75dp"
+        android:layout_height="52dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="739dp"
+        android:layout_marginEnd="-10dp"
+        android:src="@drawable/bird2" />
+
+    <ImageView
+        android:id="@+id/animal"
+        android:layout_width="61dp"
+        android:layout_height="46dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="719dp"
+        android:layout_marginEnd="628dp"
+        android:src="@drawable/animal" /> <!-- Adjust as needed -->
+
+
+
+
+</RelativeLayout>
+
+
+
+
+

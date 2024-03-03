@@ -1,0 +1,44 @@
+<!-- activity_credits.xml -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/winner">
+
+    <!-- Your credit information -->
+
+    <!-- Button to return to the main menu -->
+
+    <TextView
+        android:id="@+id/winner"
+        android:layout_width="380dp"
+        android:layout_height="447dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="150dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/chest" />
+
+    <TextView
+        android:id="@+id/reward"
+        android:layout_width="464dp"
+        android:layout_height="141dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="56dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:fontFamily="@font/pixellari"
+        android:paddingLeft="20dp"
+        android:paddingTop="20dp"
+        android:paddingRight="20dp"
+        android:paddingBottom="20dp"
+        android:text="         YOU WON
+
+
+
+CLAIM YOUR REWARD!"
+        android:textColor="@color/teal_200"
+        android:textSize="40dp" />
+
+
+</RelativeLayout>
